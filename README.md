@@ -1,2 +1,3 @@
-# vega-embed-v2
-Vega-Embed for Vega 2 and Vega-Lite 1
+# Vega-Embed v2
+
+[Vega-Embed](https://github.com/vega/vega-embed) for Vega 2 and Vega-Lite 1
