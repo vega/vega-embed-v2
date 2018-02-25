@@ -1,6 +1,6 @@
 {
     "name": "vega-embed-v2",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Vega-Embed for Vega 2 and Vega-Lite 1. Vega-embed: Publish Vega visualizations as embedded web components.",
     "keywords": [
         "vega2",
@@ -22,6 +22,6 @@
     "dependencies": {
         "vega-embed": "^2.2.0",
         "vega": "~2.6.5",
-        "vega-lite": "~1.0.16"
+        "vega-lite": "~1.3.1"
     }
 }
