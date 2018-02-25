@@ -1,33 +1,25 @@
 {
-  "name": "vega-embed-v2",
-  "version": "0.0.1",
-  "description": "Vega-Embed for Vega 2 and Vega-Lite 1. Vega-embed: Publish Vega visualizations as embedded web components.",
-  "keywords": [
-    "vega2",
-    "data",
-    "visualization",
-    "component",
-    "embed"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/vega/vega-embed-v2.git"
-  },
-  "author": {
-    "name": "UW Interactive Data Lab",
-    "url": "http://idl.cs.washington.edu"
-  },
-  "license": "BSD-3-Clause",
-  "main": "vega-embed-v2.js",
-  "devDependencies": {
-    "browserify": "^13.0.0"
-  },
-  "dependencies": {
-    "vega-embed": "^2.2.0"
-  },
-  "scripts": {
-    "dep": "npm install && npm install --only=dev && cd ./node_modules/vega-embed/ && npm install --only=dev && cd ../..",
-    "build": "browserify src/embed.js -d -s vegaEmbed > vega-embed-v2.js",
-    "deploy": "scripts/deploy.sh"
-  }
+    "name": "vega-embed-v2",
+    "version": "0.0.1",
+    "description": "Vega-Embed for Vega 2 and Vega-Lite 1. Vega-embed: Publish Vega visualizations as embedded web components.",
+    "keywords": [
+        "vega2",
+        "data",
+        "visualization",
+        "component",
+        "embed"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/vega/vega-embed-v2.git"
+    },
+    "author": {
+        "name": "UW Interactive Data Lab",
+        "url": "http://idl.cs.washington.edu"
+    },
+    "license": "BSD-3-Clause",
+    "main": "index.js",
+    "dependencies": {
+        "vega-embed": "^2.2.0"
+    }
 }
